@@ -48,12 +48,12 @@ Switch1(config-line)#login
 Switch1(config-line)#exit
 
 
-## ✅ Verification & Results
+##  Verification & Results
 - VLAN 1 interface came up successfully (`%LINK-5-CHANGED` and `%LINEPROTO-5-UPDOWN` confirmed interface and line protocol state changed to up)
 - Telnet password and login authentication configured on VTY lines 0–15
 - Switch was accessible remotely via Telnet using IP `192.168.1.1` and the configured password
 
-## 📂 Files in this Repository
+## Files in this Repository
 - `*.pkt` — Cisco Packet Tracer project file (open with Cisco Packet Tracer software)
 - Screenshots of topology and configuration output *(if added)*
 
@@ -62,5 +62,5 @@ Switch1(config-line)#exit
 2. Open it using **Cisco Packet Tracer** (free download from Cisco Networking Academy)
 3. Explore the topology and device configurations
 
-## 🙋 About
+##  About
 This project was completed as part of hands-on practice in networking fundamentals, focusing on VLAN segmentation and switch configuration.
